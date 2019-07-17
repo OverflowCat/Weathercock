@@ -1,0 +1,24 @@
+{
+  "name": "weathercock",
+  "version": "1.0.0",
+  "description": "A Twitter-Telegram bot on Node.js. Tweedle doodle doo.",
+  "main": "t.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overflowcat/Weathercock.git"
+  },
+  "keywords": [
+    "Twitter",
+    "Telegram",
+    "bot"
+  ],
+  "author": "OverflowCat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/overflowcat/Weathercock/issues"
+  },
+  "homepage": "https://github.com/overflowcat/Weathercock#readme"
+}
