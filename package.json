@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/overflowcat/Weathercock/issues"
   },
-  "homepage": "https://github.com/overflowcat/Weathercock#readme"
+  "homepage": "https://github.com/overflowcat/Weathercock#readme",
+  "dependencies": {
+    "multi-lang": "^0.1.2",
+    "twit": "^2.2.11"
+  }
 }

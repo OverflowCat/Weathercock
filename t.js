@@ -1,5 +1,5 @@
-//var Twit = require('twit')
-
+var Twit = require('twit')
+//var __
 //var T = new Twit({
 //  consumer_key:         'twitterTWEETtwitter',
 //  consumer_secret:      'SECRETsecretSECRET',
@@ -12,22 +12,16 @@
 //T.post('statuses/update', { status: 'hello world!' }, function(err, data, response) {
 //  console.log(data)
 //})
-require ('./passwd.js')
-var T = gett();
-//
-//  search twitter for all tweets containing the word 'banana' since July 11, 2011
-//
-T.get('search/tweets', { q: 'overflowcat since:2018-07-11', count: 100 }, function(err, data, response) {
-  console.log(data)
+var passwd = require ('./passwd.js');
+var T = passwd.gett();
+function BbyFllwrs(username){
+T.get('followers/ids', { screen_name: username },  function (err, data, response) {
+  var unl = data.ids;
+  console.log (unl);
 })
-
-//
-//  get the list of user id's that follow @tolga_tezel
-//
-T.get('followers/ids', { screen_name: 'tolga_tezel' },  function (err, data, response) {
-  console.log(data)
-})
-
-//
+var errinfo = "";
+return errinfo;
+}
+BbyFllwrs("tnqzh123");
 // Twit has promise support; you can use the callback API,
 // promise API, or both at the same time.

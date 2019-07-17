@@ -1,0 +1,23 @@
+{
+  "BSucceeded": {
+  "en": "Users blocked successfully",
+  }
+  "simpleIntro": {
+    "en": "Hello I'm %{name}",
+    "fa": "سلام اسم من %{name}"
+  },
+  "name-prompt": {
+    "en": "Enter your name please",
+    "fa": "لطفا نام خود را وارد نمایید",
+    "fr": "Entrez votre nom s'il vous plaît"
+  },
+  "Welcome": {
+    "zh_CN": "欢迎使用！"
+    "fa": "خوش آمدید",
+    "fr": "Bienvenue"
+  },
+  "Hello": {
+    "fa": "سلام",
+    "fr": "Bonjour"
+  }
+}
